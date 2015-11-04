@@ -1,6 +1,10 @@
-# PROJECT_NAME
+# Dash
 
-PROJECT_DESCRIPTION
+Yet another Apple TV Dashboard.
+
+- Weather
+- Next bus
+- (?) Radio
 
 ## Running the project
 
