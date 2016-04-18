@@ -1,7 +1,6 @@
 import Foundation
 import DATAStack
 import Networking
-import JSON
 import Sync
 import DATASource
 
@@ -18,8 +17,8 @@ public class Fetcher {
 
     // MARK: - Public methods
 
-    public func persistWithCompletion(completion: () -> ()) {
-        data.persistWithCompletion(completion)
+    public func persistWithCompletion(completion: (error: NSError?) -> ()) {
+        data.persist(completion)
     }
 
     public func someResource(completion: (error: NSError?) -> ()) {
